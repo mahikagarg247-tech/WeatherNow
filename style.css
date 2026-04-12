@@ -172,3 +172,15 @@ body {
     justify-content: space-between;
 
 }
+
+.hourly-forecast {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    column-gap: 10px;
+
+
+}
+
+.hourly-forecast .card {
+    text-align: center;
+}
