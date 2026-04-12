@@ -91,3 +91,20 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+
+.card-footer p {
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.forecast-item {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    margin-bottom: 15px;
+}
+
+.icon-wrap {
+    display: flex;
+    align-items: center;
+}
