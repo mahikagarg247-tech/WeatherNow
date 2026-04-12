@@ -54,3 +54,40 @@ body {
 
 
 }
+
+.card {
+    background-color: #2a2b2d;
+    padding: 15px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+
+}
+
+.card p {
+    font-size: 14px;
+    color: #fff
+}
+
+.card h2 {
+    font-size: 32px;
+    font-weight: 500;
+    margin: 7px 0;
+
+}
+
+.weather-data {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+
+}
+
+.weather-left {
+    grid-column: span 1;
+}
+
+.current-weather {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
