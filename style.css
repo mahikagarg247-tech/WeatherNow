@@ -166,3 +166,9 @@ body {
 .sunrise-sunset h2 {
     margin-bottom: 15px;
 }
+
+.card-item {
+    display: flex;
+    justify-content: space-between;
+
+}
