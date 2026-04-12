@@ -2,96 +2,55 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
 }
 
 body {
-    height: 100vh;
+    min-height: 100vh;
+    background-color: #212529;
+    color: #fff;
+    font-family: sans-serif;
+    padding: 0 15px
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    background-color: #212529;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(to bottom, #5fa8d3, #1b3b5f);
+    justify-content: space-between;
+    align-content: center;
+    margin-bottom: 10px;
+    padding: 15px 0;
+
 }
 
-.container {
-    width: 300px;
-}
-
-.card {
-    background: rgba(255, 255, 255, 0.15);
-    backdrop-filter: blur(10px);
-    border-radius: 20px;
-    padding: 20px;
-    color: white;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-}
-
-.search input {
-    width: 100%;
-    padding: 10px;
-    border-radius: 20px;
+#city_input {
+    background-color: #2a2b2d;
     border: none;
-    outline: none;
-    margin-bottom: 15px;
-}
-
-
-.city {
-    display: flex;
-    justify-content: space-between;
-    font-size: 14px;
-    margin-bottom: 20px;
-}
-
-
-.weather {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.weather .icon {
-    font-size: 40px;
-}
-
-.weather .temp {
-    font-size: 32px;
-    font-weight: bold;
-}
-
-.weather .desc {
-    font-size: 14px;
-}
-
-
-.info {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
-}
-
-.info div p {
-    font-size: 12px;
-}
-
-.info div h3 {
+    padding: 12px;
     font-size: 16px;
+    border-radius: 25px;
+    color: #fff;
+
 }
 
+#searchBtn {
+    border: none;
+    font-size: 16px;
+    padding: 12px;
+    border-radius: 25px;
+    background-color: #fff;
+    cursor: pointer;
 
-.forecast {
-    display: flex;
-    gap: 10px;
-    overflow-x: auto;
 }
 
-.forecast .item {
-    min-width: 70px;
-    background: rgba(255, 255, 255, 0.2);
-    padding: 10px;
-    border-radius: 10px;
-    text-align: center;
-}
+#locationBtn {
+    border: none;
+    font-size: 16px;
+    padding: 12px;
+    border-radius: 25px;
+    background-color: #ea6e4b;
+    cursor: pointer;
 
-.forecast .item span {
-    font-size: 20px;
+
 }
